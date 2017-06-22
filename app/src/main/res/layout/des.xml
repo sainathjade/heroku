@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/dec"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView2"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/pink"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView5"
+                android:layout_marginTop="21dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignStart="@+id/imageView2" />
+
+
+
+            <TextView
+                android:layout_width="251dp"
+                android:layout_height="wrap_content"
+                android:text="Lumbini Park is a small public, urban park of 7.5 acres adjacent to Hussain Sagar in Hyderabad, India. Wikipedia  Address: Opposite Secretariat New Gate, Khairatabad, Hyderabad, Andhra Pradesh 500004"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView5"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_toLeftOf="@+id/button10"
+                android:layout_toStartOf="@+id/button10" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book"
+                android:layout_marginTop="10dp"
+                android:id="@+id/button2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/pink"
+                android:textColor="@color/white"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar2"
+                android:layout_below="@+id/button2"
+                android:scaleX="0.75"
+                android:transformPivotX="0dp"
+                android:layout_marginLeft="10dp"
+                android:transformPivotY="0dp"
+                android:scaleY="0.75"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignStart="@+id/imageView2" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/button10"
+                android:layout_alignTop="@+id/textView6"
+                android:layout_alignRight="@+id/imageView2"
+                android:background="@drawable/mapmarkericon" />
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/ratingBar2"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

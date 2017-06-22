@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\android-tablayout-example-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\android-tablayout-example-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\search.png",
+        "source": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\src\\main\\res\\mipmap-hdpi\\search.png"
+    },
+    {
+        "merged": "D:\\android-tablayout-example-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\search.png",
+        "source": "D:\\android-tablayout-example-master\\app\\src\\main\\res\\mipmap-hdpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\m.png",
+        "source": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\src\\main\\res\\mipmap-hdpi\\m.png"
+    },
+    {
+        "merged": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\android-tablayout-example-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\m.png",
+        "source": "D:\\android-tablayout-example-master\\app\\src\\main\\res\\mipmap-hdpi\\m.png"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android-tablayout-example-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\tab1.xml",
+        "source": "D:\\android-tablayout-example-master\\app\\src\\main\\res\\layout-small\\tab1.xml"
+    },
+    {
+        "merged": "D:\\android-tablayout-example-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\gridview_custom_layout.xml",
+        "source": "D:\\android-tablayout-example-master\\app\\src\\main\\res\\layout-small\\gridview_custom_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\tab1.xml",
+        "source": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\src\\main\\res\\layout-small\\tab1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\gridview_custom_layout.xml",
+        "source": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\src\\main\\res\\layout-small\\gridview_custom_layout.xml"
+    }
+]

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="0dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dear Customer,"
+                    android:id="@+id/textView19"
+                    android:layout_alignTop="@+id/textView21"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="Total Tickets"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView21"
+                    android:layout_marginRight="34dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/qr"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="BOOKING ID:TVCE0003822530"
+                    android:id="@+id/textView22"
+                    android:layout_below="@+id/textView19"
+                    android:layout_alignLeft="@+id/textView19"
+                    android:layout_alignStart="@+id/textView19" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boarder"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lumbini Park"
+                    android:id="@+id/textView9"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_alignTop="@+id/textView2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:id="@+id/textView20"
+                    android:layout_alignTop="@+id/textVie22"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Tickets"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView2"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginEnd="34dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Khairatabad, Hyderabad, Andhra Pradesh, India.500004"
+                    android:id="@+id/textVie22"
+                    android:layout_below="@+id/textView9"
+                    android:layout_alignLeft="@+id/textView9"
+                    android:layout_alignStart="@+id/textView9"
+                    android:layout_toLeftOf="@+id/textView20"
+                    android:layout_toStartOf="@+id/textView20"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:id="@+id/textView23"
+                    android:layout_above="@+id/textVie22"
+                    android:layout_alignLeft="@+id/textView20"
+                    android:layout_alignStart="@+id/textView20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:id="@+id/textView24"
+                    android:layout_alignBaseline="@+id/textVie22"
+                    android:layout_alignBottom="@+id/textVie22"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_alignStart="@+id/textView2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/flow"
+                android:layout_height="wrap_content"
+
+                >
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+
+                android:weightSum="1"
+                android:layout_marginBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.50"
+                    android:layout_marginLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Booking Date &amp; Time:"
+                        android:id="@+id/textView15"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView38"
+                        android:layout_below="@+id/textView15"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Payment Mode :Net Banking"
+                        android:id="@+id/textView39"
+                        android:layout_below="@+id/textView38"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IMPORTANT NOTES"
+                        android:id="@+id/textView40"
+                        android:layout_below="@+id/textView39"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tickets once booked cannot be exchanged,cancelled or refunded. The Credit Card and Credit Card Holder must be present at the ticket counter while collecting the ticket(s). 3D Glasses are chargable (refundable/non-refunable) as per individual cinema policies..Tickets once booked cannot be exchanged,cancelled or refunded. The Credit Card and Credit Card Holder must be present at the ticket counter while collecting the ticket(s). 3D Glasses are chargable (refundable/non-refunable) as per individual cinema policies."
+                        android:id="@+id/textView41"
+                        android:layout_below="@+id/textView40"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:gravity="fill"
+                        android:textAlignment="gravity"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/orderboader"
+                    android:layout_weight="0.50"
+
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Personal Details"
+                        android:id="@+id/textView33"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="false"
+
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quantity"
+                        android:id="@+id/textView34"
+                        android:layout_below="@+id/textView"
+                        android:layout_alignLeft="@+id/textView"
+                        android:layout_alignStart="@+id/textView"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Discount: 0"
+                        android:id="@+id/textView35"
+                        android:layout_below="@+id/textView34"
+                        android:layout_alignLeft="@+id/textView34"
+                        android:layout_alignStart="@+id/textView34"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ticket: "
+                        android:id="@+id/textView"
+                        android:layout_below="@+id/textView33"
+                        android:layout_alignLeft="@+id/textView33"
+                        android:layout_alignStart="@+id/textView33"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internet handling fees : Rs .13.38"
+                        android:id="@+id/textView42"
+                        android:layout_below="@+id/textView35"
+                        android:layout_alignLeft="@+id/textView35"
+                        android:layout_alignStart="@+id/textView35"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other items: Rs 2.00"
+                        android:id="@+id/textView43"
+                        android:layout_below="@+id/textView42"
+                        android:layout_alignLeft="@+id/textView42"
+                        android:layout_alignStart="@+id/textView42"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ticket Amount : Rs.240.00"
+                        android:id="@+id/textView44"
+                        android:layout_below="@+id/textView43"
+                        android:layout_alignLeft="@+id/textView43"
+                        android:layout_alignStart="@+id/textView43"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internet handling fees : Rs .13.38+Additional  Charges: Rs.17.24++ Other  items: Rs.2.00- Discount : Rs 0.0"
+                        android:id="@+id/textView45"
+                        android:layout_below="@+id/textView44"
+                        android:layout_alignLeft="@+id/textView44"
+                        android:layout_alignStart="@+id/textView44"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.279.29"
+                        android:id="@+id/textView46"
+                        android:layout_below="@+id/textView45"
+                        android:layout_alignLeft="@+id/textView45"
+                        android:layout_alignStart="@+id/textView45"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

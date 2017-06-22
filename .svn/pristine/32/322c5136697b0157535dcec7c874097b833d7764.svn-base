@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginLeft="10dp"
+                android:nestedScrollingEnabled="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Lumbini Park"
+                    android:textColor="@color/pink"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView9"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lumbini Park, Khairatabad, Hyderabad, Andhra Pradesh, India.500004"
+                    android:id="@+id/textView16"
+                    android:layout_below="@+id/textView9"
+                    android:layout_alignLeft="@+id/textView9"
+                    android:layout_alignStart="@+id/textView9"
+                    android:layout_toLeftOf="@+id/textView18"
+                    android:layout_toStartOf="@+id/textView18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adults : 4"
+                    android:id="@+id/textView17"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_alignTop="@+id/textView9"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Children : 3"
+                    android:id="@+id/textView18"
+                    android:layout_alignTop="@+id/textView16"
+                    android:layout_alignLeft="@+id/textView17"
+                    android:layout_alignStart="@+id/textView17" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Date"
+                    android:id="@+id/textView19"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginStart="27dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:id="@+id/textView20"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Tickets"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView21"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginEnd="34dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="03 Sep 2015"
+                    android:id="@+id/textView22"
+                    android:layout_below="@+id/textView19"
+                    android:layout_alignLeft="@+id/textView19"
+                    android:layout_alignStart="@+id/textView19" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6:00 pm"
+                    android:id="@+id/textView23"
+                    android:layout_alignTop="@+id/textView22"
+                    android:layout_alignLeft="@+id/textView20"
+                    android:layout_alignStart="@+id/textView20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:id="@+id/textView24"
+                    android:layout_alignTop="@+id/textView23"
+                    android:layout_alignLeft="@+id/textView21"
+                    android:layout_alignStart="@+id/textView21"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginStart="28dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/border"
+                android:layout_height="141dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Total"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView25"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Internet Handling Fees"
+                    android:id="@+id/textView26"
+                    android:layout_below="@+id/textView25"
+                    android:layout_alignLeft="@+id/textView25"
+                    android:layout_alignStart="@+id/textView25" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Payment Gateway Chatges"
+                    android:id="@+id/textView27"
+                    android:layout_below="@+id/textView26"
+                    android:layout_alignLeft="@+id/textView26"
+                    android:layout_alignStart="@+id/textView26" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="280.00"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginEnd="32dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15.00"
+                    android:id="@+id/textView29"
+                    android:layout_alignTop="@+id/textView26"
+                    android:layout_alignLeft="@+id/textView28"
+                    android:layout_alignStart="@+id/textView28" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.00"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView30"
+                    android:layout_below="@+id/textView29"
+                    android:layout_alignLeft="@+id/textView29"
+                    android:layout_alignStart="@+id/textView29" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#ffe650"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/textView27"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total"
+                        android:id="@+id/textView31"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="38dp"
+                        android:layout_marginStart="38dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 305.00"
+                        android:id="@+id/textView32"
+                        android:layout_marginRight="31dp"
+                        android:layout_marginEnd="31dp"
+                        android:layout_alignTop="@+id/textView31"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:transitionGroup="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Details"
+                    android:id="@+id/textView33"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shivadesigner@yahoo.com"
+                    android:id="@+id/textView34"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignLeft="@+id/textView"
+                    android:layout_alignStart="@+id/textView"
+                    android:layout_toLeftOf="@+id/button9"
+                    android:layout_toStartOf="@+id/button9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="984 8056 306"
+                    android:id="@+id/textView35"
+                    android:layout_below="@+id/textView34"
+                    android:layout_alignLeft="@+id/textView34"
+                    android:layout_alignStart="@+id/textView34"
+                    android:layout_alignRight="@+id/textView34"
+                    android:layout_alignEnd="@+id/textView34" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:id="@+id/textView"
+                    android:layout_below="@+id/textView33"
+                    android:layout_alignLeft="@+id/textView33"
+                    android:layout_alignStart="@+id/textView33"
+                    android:layout_marginTop="5dp"
+                    android:layout_toLeftOf="@+id/button9"
+                    android:layout_toStartOf="@+id/button9" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="New Button"
+                    android:id="@+id/button9"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_alignTop="@+id/textView33"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pay Now"
+                    android:id="@+id/button5"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/pink"
+                    android:textColor="@color/white"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginEnd="34dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

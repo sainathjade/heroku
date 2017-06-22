@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Glansa\\Desktop\\Bookmyleisure\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\android-tablayout-example-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\android-tablayout-example-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

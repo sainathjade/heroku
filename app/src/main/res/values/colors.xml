@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="orange">#FA0</color>
+    <color name="white">#FFF</color>
+    <color name="pink">#dd0354</color>
+    <color name="praks">#b8207a</color>
+    <color name="amu">#83b35d</color>
+    <color name="his">#dfae46</color>
+    <color name="mus">#4c87bd</color>
+    <color name="events">#b92746</color>
+    <color name="exhi">#515151</color>
+</resources>
